@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <main>
     <div class="container">
@@ -53,7 +55,7 @@
 
       <!-- ratings -->
       <div class="book__rating">
-        <div class="book__rating__fill">
+        <div class="book__rating__fill" style="width: {{ ratingWidth }}%; background: {{ ratingBgc }}">
           {{ rating }}/10
         </div>
       </div>
@@ -67,4 +69,5 @@
   <script src="js/data.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
